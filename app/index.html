@@ -39,6 +39,18 @@
 </html>
 <!--	console.firebase.google.com/project//database/rules  -->
 <!--
+
+Default rules:
+
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+
+Changed to:
+
 {
   "rules": {
     ".read": true,
