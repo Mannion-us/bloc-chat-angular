@@ -1,4 +1,4 @@
 (function() {
 	angular
-		.module('blocChatAngular', [])
+		.module('blocChatAngular', ['ui.router', 'firebase'])
 })();
